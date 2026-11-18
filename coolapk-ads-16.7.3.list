@@ -1,0 +1,22 @@
+# 酷安 iOS 16.7.3 广告 SDK 域名拦截（Quantumult X）
+# 注意：这是全局域名拦截；其他使用同一广告联盟 SDK 的 App 也可能受影响。
+# 社区规则整理基础，非针对 16.7.3 的逐包抓包清单。
+
+# 穿山甲 / Pangle / GroMore
+host-suffix, pangolin-sdk-toutiao.com, reject
+host-suffix, pangolin-sdk-toutiao-b.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-suffix, pangle.io, reject
+host, ad.toutiao.com, reject
+
+# 腾讯优量汇 / GDT
+host-suffix, gdt.qq.com, reject
+host-suffix, gdtimg.com, reject
+host-suffix, pgdt.gtimg.cn, reject
+host-suffix, ad.qq.com, reject
+
+# 快手联盟
+host-suffix, kuaishouzt.com, reject
+host-suffix, open.e.kuaishou.com, reject
+host-suffix, kwaiad.com, reject
+host-suffix, adkwai.com, reject
